@@ -1,0 +1,38 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #3d3d3d;
+
+}
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;          /*no ugly underline*/
+}
+li a:hover {
+    background-color: rgb(32, 32, 32);
+}
+.active {
+    background-color: rgb(255, 70, 233);
+}
+
+body {
+    background-color: #1c1c1c;
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.game {
+    background-color: rgb(255, 70, 233);
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
